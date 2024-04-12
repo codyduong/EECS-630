@@ -1,6 +1,8 @@
 output: MainTest.cpp
 	clear;
-	g++ -std=c++11 -o Lab2 MainTest.cpp;
+	g++ -std=c++11 -o Labrun MainTest.cpp;
 
-clean: Lab2
-	rm -rf Lab2
+clean: Labrun
+	rm -rf Labrun
+
+all: clean, output

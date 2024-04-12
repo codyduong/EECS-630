@@ -21,7 +21,7 @@
     echo "Running test for input $i..."
     
     # Run the time command and log the output
-    /usr/bin/time -v -o Implementation/log_$i.txt ./Lab2 Inputs/input_$i.txt > Implementation/output_$i.txt
+    /usr/bin/time -v -o Implementation/log_$i.txt ./Labrun Inputs/input_$i.txt > Implementation/output_$i.txt
 
     # Check if the previous command was successful before continuing
     if [ $? -eq 0 ]; then
